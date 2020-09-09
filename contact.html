@@ -1,0 +1,51 @@
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>estory</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <div class="logocontainer">
+                <a href="acceuil.html"><img class="logo" src="logo.png" alt="logo"></a>
+            </div>
+            <img class="barre" src="barre.png" alt="barre">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="navbar-link" href="acceuil.html">Acceuil</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="Présentation.html">Présentation</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 class="titlecontact">CONTACT</h2>
+            <div class="maincontact">
+                <div class="form">
+                    <form method="POST" action="traitement.php">
+                        <label for="Nom">Nom :</label>
+                        <input type="text" id="nom"><br>
+                        <label for="email">Email :</label>
+                        <input type="text" id="email"><br>
+                        <label for="Message">Message :</label>
+                        <textarea id="Message" name="Message"></textarea><br>
+                        <input type="submit" value="Envoyer">
+
+                    </form>
+                </div>
+           </div>
+       </div>
+    </main>
+</body>
+
+
+</html>
