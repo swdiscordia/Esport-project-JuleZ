@@ -86,14 +86,17 @@ main {
     border-radius: 5px;
 }
 
-.suite1 {
+.suite {
     align-self: flex-end;
     font-weight: bold;
     color: #b6842e;
+    text-decoration: none;
 }
 
 .image1 {
     border: 1px solid #D6972A;
+    width: 460px;
+    height: 262px;
 }
 
 .footer {
@@ -142,8 +145,25 @@ form {
 
 #email {
     margin: 10px;
+    width: 250px;
 }
 
 #nom {
     margin: 10px;
+}
+
+.suite1 {
+    text-decoration: none;
+}
+
+.titreart1 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #747373;
+    border-bottom: 2px solid #D6972A;
+    color: #D6972A;
+    font-size: 20px;
+    font-family: 'Hammersmith One';  
 }
