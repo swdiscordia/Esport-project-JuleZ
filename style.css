@@ -158,30 +158,54 @@ form {
 }
 
 .titreart {
+    width: 1200px;
     height: 100px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #747373;
+    background-color: #a5a5a5;
     border-bottom: 2px solid #D6972A;
-    color: #D6972A;
     font-size: 20px;
-    font-family: 'Hammersmith One';  
+    color: black;
 }
 
 .imgart {
-    height: 700px;
+    max-height: 700px;
     border: 1px solid #D6972A;
 }
 
-.articleimg {
+.articlemiddlecontent {
+    width: 1200px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     background-color: #C4C4C4;
 }
 
-.p {
-    padding: 0px 400px 0px 400px;
+
+
+figcaption {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    font-size: 20px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.articlemiddlecontent p {
+    padding: 0px 40px 0px 40px;
 }
