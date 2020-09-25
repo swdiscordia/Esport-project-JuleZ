@@ -110,6 +110,9 @@ main {
     display: flex;
     justify-content: center;
     padding: 40px;
+    width: 1800px;
+    background-color: #888888;
+    margin-bottom: 20px;
 }
 
 .maincontact {
@@ -168,6 +171,7 @@ form {
     border-bottom: 2px solid #D6972A;
     font-size: 20px;
     color: black;
+    border-top: 2px solid #d6972A;
 }
 
 .imgart {
@@ -199,13 +203,56 @@ figure {
     margin: auto;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-}
+
 
 .articlemiddlecontent p {
-    padding: 0px 40px 0px 40px;
+    padding: 0 73px 0 73px;
+    text-align: start;
+    font-size: 18px;
+}
+
+.articlemiddlecontent h3 {
+    text-align: start;
+    padding-left: 73px;
+    font-size: 20px;
+}
+
+
+.article {
+    display: flex;
+    justify-content: center;
+    background-color: #dfdfdf;
+}
+
+.titrebox {
+    display: flex;
+    justify-content: start;
+    width: 980px;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    background: #72a6ca;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding-left: 20px;
+}
+
+.boxarticle {
+    border: 2px solid rgb(97, 97, 97);  
+    width: 1000px;
+    border-radius: 6px;
+    background: #bbe1fc;
+}
+
+.boxp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
