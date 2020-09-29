@@ -27,7 +27,7 @@
 }     
 
 nav {     
-    display: flex;    
+    display: flex; 
 }     
 
 .navbar-link:hover {      
@@ -100,10 +100,11 @@ main {
 }
 
 .footer {
+    display: block;
     width: auto;
     height: 100px;
     background-color: #444444;
-    border-top: 1px solid #D6972A;
+    border-top: 2px solid #D6972A;
 }
 
 .titlecontact {
@@ -111,22 +112,25 @@ main {
     justify-content: center;
     padding: 40px;
     width: 1800px;
-    background-color: #888888;
-    margin-bottom: 20px;
+    background-color: #6b6b6b;
+    border-bottom: 1px solid #d6972A;
+    font-family: 'Merriweather', serif;
+
 }
 
 .maincontact {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: #909090;
     border-bottom: #D6972A solid 2px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .form {
-    width: 70%;
-    height: 85%;
+    width: 60%;
+    height: 60%;
     background-color: #C4C4C4;
     border: solid 1px #D6972A;
     display: flex;
@@ -162,7 +166,7 @@ form {
 
 .titreart {
     width: 1200px;
-    height: 100px;
+    height: 70px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -172,6 +176,8 @@ form {
     font-size: 20px;
     color: black;
     border-top: 2px solid #d6972A;
+    font-family: 'Merriweather', serif;
+    margin: 20px 0 20px 0;
 }
 
 .imgart {
@@ -211,9 +217,7 @@ figure {
     font-size: 18px;
 }
 
-.articlemiddlecontent h3 {
-    text-align: start;
-    padding-left: 73px;
+h3 {
     font-size: 20px;
 }
 
@@ -231,17 +235,19 @@ figure {
     height: 70px;
     align-items: center;
     border-bottom: 1px solid rgb(97, 97, 97);
-    background: #72a6ca;
+    background: #444444;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     padding-left: 20px;
+    font-size: 25px;
+    color: white;
 }
 
 .boxarticle {
     border: 2px solid rgb(97, 97, 97);  
     width: 1000px;
     border-radius: 6px;
-    background: #bbe1fc;
+    background: #9b9b9b;
 }
 
 .boxp {
@@ -255,4 +261,110 @@ figure {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.footerart1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    background-color: #444444;
+    border-top: 2px solid #D6972A;
+    
+}
+
+.footerart1 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #d6972A;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #C4C4C4;
+}
+
+.footerart1 a:hover {
+    background-color: #d6972A;
+    color: white;
+}
+
+.articlemiddlecontent p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+}
+
+.editeurs {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.editeurs li {
+    list-style-type: none;
+}
+
+.boxp img {
+    width: 280px;
+    height: 120px;
+}
+
+.iemkato img {
+    width: 800px;
+    padding-top: 20px;
+}
+
+.iemkato {
+    display: flex;
+}
+
+.investexmp {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #909090;
+    border-top: 1px solid #909090;
+    padding: 20px 0 20px 0;
+}
+
+.investp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    font-weight: 700;
+}
+
+.starinvest {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.starp {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.streamer li{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.streamer {
+    margin: 15px 0 15px 0;
+    padding-left: 40px;
+}
+
+.streamer li a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: #d6972A;
 }
