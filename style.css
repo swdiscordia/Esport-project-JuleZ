@@ -2,48 +2,101 @@
     margin: 0;
     
 }
-.banner {
-    display: flex;
-    background-color: #444444;
-    align-items: center;
-    word-spacing: 100px;
-    border-bottom: #D6972A solid 2px;
+
+body {
+    padding: 0;
+    margin: 0;
 }
 
-.logo {
-    display: flex;    
-    width: 100px;     
-    height: 100px;    
-    align-items: center;      
-}     
+nav > ul {
+    margin: 0%;
+    padding: 0;
+}
 
-.navbar-link {    
-    color: #D6972A;   
-    text-decoration: none;    
-}     
-.banner li {      
-    font-size: 16px;      
-    display: inline-block;    
-    font-family: 'Hammersmith One';   
-}     
+nav > ul > li {
+    float: left;
+    position: relative;
+}
 
-nav {     
-    display: flex; 
-}     
+nav li {
+    list-style-type: none;
+}
 
-.navbar-link:hover {      
-    color: hsl(38, 66%, 41%);     
-}     
+.submenu {
+    display: none;
+}
 
-.barre {      
-    margin-right: 20px;   
-}     
+nav {
+    width: 100%;
+    background-color: #444444;
+    border-bottom: 3px solid #D6972A;
+    display: flex;
+}
 
-.logocontainer {      
-    width: 150px;     
-    display: flex;    
-    justify-content: center;      
-}     
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    padding: 50px 60px 50px 60px;
+    color: #D6972A;
+    font-family: 'Hammersmith One';
+}
+
+nav > .logo {
+    width: 120px;
+    height: 120px;
+    margin: 0px 10px 0 10px;
+}
+
+nav > .barre {
+    height: 100px;
+    margin-top: 10px;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #D6972A;
+    width: 270px;
+}
+
+.menuarticle:hover {
+    border-top: 5px solid #D6972A;
+    background-color: #303030;
+}
+
+nav > ul > li:hover .linkarticles {
+    padding: 45px 60px 50px 60px;
+}
+
+.menuarticle .submenu li {
+    background-color: #303030;
+}
+
+.menuarticle .submenu li:hover {
+    background-color: #525252;
+} 
 
 main {    
     width: 100%;
@@ -91,7 +144,7 @@ main {
 .suite {
     align-self: flex-end;
     font-weight: bold;
-    color: #b6842e;
+    color: #D6972A;
     text-decoration: none;
 }
 
@@ -160,10 +213,6 @@ form {
 
 #nom {
     margin: 10px;
-}
-
-.suite1 {
-    text-decoration: none;
 }
 
 .titreart {
@@ -409,4 +458,8 @@ h3 {
     width: 1000px;
     margin-left: 0;
     border: 1px solid #D6972A;
+}
+
+.suite:hover {
+    color: #e09c26;
 }
