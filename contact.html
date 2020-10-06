@@ -4,6 +4,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
     <title>estory</title>
@@ -17,7 +19,7 @@
             <ul>
                 <li><a href="acceuil.html">Acceuil</a></li>
                 <li class="menuarticle"><a href="#" class="linkarticles">Articles</a>
-                    <ul class="submenu">    
+                    <ul class="submenu">
                         <li><a href="article1.html">Qu'est-ce que l’esport ?</a></li>
                         <li><a href="article2.html">Les acteurs majeurs</a></li>
                         <li><a href="article3.html">Qu’est-ce qu’un joueur esport ?</a></li>
@@ -28,24 +30,37 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2 class="titlecontact">Contact</h2>
-        <div class="maincontact">
-            <div class="form">
-                <form method="POST" action="traitement.php">
-                    <label for="Nom">Nom :</label>
-                    <input type="text" id="nom"><br>
-                    <label for="email">Email :</label>
-                    <input type="text" id="email"><br>
-                    <label for="Message">Message :</label>
-                    <textarea id="Message" name="Message"></textarea><br>
-                    <input type="submit" value="Envoyer">
 
-                </form>
+
+    <main>
+        <div class="contacttopcontent">
+            <div class="contacttitle">
+                <h2>Contactez nous</h2>
+                <p>Entrez en contact avec nous!</p>
             </div>
         </div>
-        </div>
-        <div class="footer">
+        <div class="contactcontent">
+            <figure class="figurecontact">
+                <img src="moi.png">
+                <figcaption>Jules THIBAULT</figcaption>
+                <img src="mail.png">
+                <figcaption>Estory@gmail.com</figcaption>
+                <img src="tel.png">
+                <figcaption>+33 6 95 88 00 07</figcaption>
+                <img src="location.png">
+                <figcaption>8 Rue National<br>59000 Lille</figcaption>
+            </figure>
+        </div>    
+        </div class="mapgoogle">
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.4626157485213!2d3.0601833161201633!3d50.637098979501715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d587d1c90ab1%3A0xa1daf56a867111be!2s8%20Rue%20Nationale%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1601984497638!5m2!1sfr!2sfr"
+                width="1400" height="400" frameborder="0" style="border: 2px solid #D6972A;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>        
+        <div class="footercontact">
+            <a href="https://www.instagram.com/estory.1/" target="blank"><img src="instagram.svg"></a>
+            <a href="https://twitter.com/estory_1" target="blank"><img src="twitter.svg"></a>
         </div>
     </main>
 </body>

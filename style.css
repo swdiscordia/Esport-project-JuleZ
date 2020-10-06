@@ -8,12 +8,12 @@ body {
     margin: 0;
 }
 
-nav > ul {
+nav ul {
     margin: 0%;
     padding: 0;
 }
 
-nav > ul > li {
+nav  ul  li {
     float: left;
     position: relative;
 }
@@ -33,7 +33,7 @@ nav {
     display: flex;
 }
 
-nav > ul::after {
+nav ul::after {
     content: "";
     display: block;
     clear: both;
@@ -44,19 +44,19 @@ nav a {
     text-decoration: none;
 }
 
-nav > ul > li > a {
+nav ul li a {
     padding: 50px 60px 50px 60px;
     color: #D6972A;
     font-family: 'Hammersmith One';
 }
 
-nav > .logo {
+nav .logo {
     width: 120px;
     height: 120px;
     margin: 0px 10px 0 10px;
 }
 
-nav > .barre {
+nav .barre {
     height: 100px;
     margin-top: 10px;
 }
@@ -86,7 +86,7 @@ nav li:hover .submenu {
     background-color: #303030;
 }
 
-nav > ul > li:hover .linkarticles {
+nav ul li:hover .linkarticles {
     padding: 45px 60px 50px 60px;
 }
 
@@ -101,14 +101,14 @@ nav > ul > li:hover .linkarticles {
 main {    
     width: 100%;
     height: 100%;
-    background-color: #909090;
+    background-color: #a9a9a9;
     
 }
 
 .partie1 {
     height: 400px;
     width: 100%;
-    background-color: #909090;
+    background-color:#a9a9a9;
     border-bottom: #D6972A solid 2px;
     display: flex;
 }
@@ -162,58 +162,6 @@ main {
     border-top: 2px solid #D6972A;
 }
 
-.titlecontact {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    width: 1800px;
-    background-color: #6b6b6b;
-    border-bottom: 1px solid #d6972A;
-    font-family: 'Merriweather', serif;
-
-}
-
-.maincontact {
-    height: 700px;
-    width: 100%;
-    background-color: #909090;
-    border-bottom: #D6972A solid 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form {
-    width: 60%;
-    height: 60%;
-    background-color: #C4C4C4;
-    border: solid 1px #D6972A;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-
-form {
-    width: 80%;
-    height: 80%;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#message {
-    width: 80%;
-    height: 60%;
-    margin: 10px;
-}
-
-#email {
-    margin: 10px;
-    width: 250px;
-}
-
-#nom {
-    margin: 10px;
-}
 
 .titreart {
     width: 1200px;
@@ -445,7 +393,7 @@ h3 {
     padding-left: 10px;
     margin-left: 100px;
     margin-top: 20px;
-    border: 1px solid #D6972A;
+    border: 1px solid #D6972A;  
 }
 
 .societep {
@@ -463,3 +411,76 @@ h3 {
 .suite:hover {
     color: #e09c26;
 }
+
+.contacttopcontent {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacttopcontent p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.contacttopcontent h2 {
+    font-family: 'Sarala', sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.contactcontent {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.contactcontent img {
+    width: 200px;
+}
+
+.figurecontact figcaption{
+    width: 200px;
+    background: #a9a9a9;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.figurecontact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+}
+
+.iframe {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: #a9a9a9;
+    padding-bottom: 100px;
+}
+
+.footercontact img {
+    width: 50px;
+}
+
+.footercontact {
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: #444444;
+    border-top: 2px solid #D6972A;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
